@@ -14,6 +14,10 @@
 		4479DE92207CCE9F00C18A8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4479DE90207CCE9F00C18A8B /* LaunchScreen.storyboard */; };
 		4479DE9D207CCE9F00C18A8B /* SystemTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4479DE9C207CCE9F00C18A8B /* SystemTestTests.swift */; };
 		4479DEA8207CCE9F00C18A8B /* SystemTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4479DEA7207CCE9F00C18A8B /* SystemTestUITests.swift */; };
+		4479DEB6207CCEE200C18A8B /* VegetablesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4479DEB5207CCEE200C18A8B /* VegetablesTableViewController.swift */; };
+		4479DEB8207CD3AF00C18A8B /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4479DEB7207CD3AF00C18A8B /* MainTableViewController.swift */; };
+		44BE44C9207CE17C0043D66B /* FruitsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BE44C8207CE17C0043D66B /* FruitsTableViewController.swift */; };
+		44BE44CB207CE3EB0043D66B /* LeafyVegetablesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44BE44CA207CE3EB0043D66B /* LeafyVegetablesTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		4479DEA3207CCE9F00C18A8B /* SystemTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SystemTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4479DEA7207CCE9F00C18A8B /* SystemTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SystemTestUITests.swift; sourceTree = "<group>"; };
 		4479DEA9207CCE9F00C18A8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4479DEB5207CCEE200C18A8B /* VegetablesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VegetablesTableViewController.swift; sourceTree = "<group>"; };
+		4479DEB7207CD3AF00C18A8B /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		44BE44C8207CE17C0043D66B /* FruitsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsTableViewController.swift; sourceTree = "<group>"; };
+		44BE44CA207CE3EB0043D66B /* LeafyVegetablesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeafyVegetablesTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +111,10 @@
 				4479DE8E207CCE9F00C18A8B /* Assets.xcassets */,
 				4479DE90207CCE9F00C18A8B /* LaunchScreen.storyboard */,
 				4479DE93207CCE9F00C18A8B /* Info.plist */,
+				4479DEB7207CD3AF00C18A8B /* MainTableViewController.swift */,
+				4479DEB5207CCEE200C18A8B /* VegetablesTableViewController.swift */,
+				44BE44C8207CE17C0043D66B /* FruitsTableViewController.swift */,
+				44BE44CA207CE3EB0043D66B /* LeafyVegetablesTableViewController.swift */,
 			);
 			path = SystemTest;
 			sourceTree = "<group>";
@@ -259,6 +271,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4479DEB8207CD3AF00C18A8B /* MainTableViewController.swift in Sources */,
+				44BE44C9207CE17C0043D66B /* FruitsTableViewController.swift in Sources */,
+				4479DEB6207CCEE200C18A8B /* VegetablesTableViewController.swift in Sources */,
+				44BE44CB207CE3EB0043D66B /* LeafyVegetablesTableViewController.swift in Sources */,
 				4479DE8A207CCE9F00C18A8B /* ViewController.swift in Sources */,
 				4479DE88207CCE9F00C18A8B /* AppDelegate.swift in Sources */,
 			);
